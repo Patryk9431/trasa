@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #ADD8E6;
+      color: #333;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 1000px;
+      margin: 40px auto 0 auto;
+      text-align: center;       
+    }
+
+    h1 {
+      width: 180px;
+      height: 50px;
+      margin: 0 auto 20px auto; 
+      background-color: #0073e6;
+      color:FFA500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    h1:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    .opis {
+      font-size: 16px;
+      padding: 0 20px;
+	  color:#FFFF00;
+	  
+    }
+	
+	a {
+      width: 300px;
+      height: 50px;
+      margin: 0 auto 20px auto; 
+      background-color: #0073e6;
+      color:FFA500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      font-weight: bold;
+      border-radius: 10px;
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    a:hover {
+      transform: scale(1.2);
+      box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+    }
+	
+	
+	.video-wrapper {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 20px;
+    }
+
+    .video-wrapper iframe {
+      width: 560px;
+      height: 315px;
+      max-width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .video-wrapper iframe {
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+      }
+    }
+	
+	
+	
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Trasa Rowerowa</h1>
+    <p class="opis">
+      Stalowa Wola – Punkt widokowy nad Wisłą i Sanem, Radomyśl nad Sanem – Stalowa Wola
+    </p>
+  </div>
+  <img src="trasa.jpg" alt="Trasa przejazdu rowerem" width="800" height="500" style="display: block; margin: 0 auto;">
+  <div class="container">
+  <a href="https://www.google.com/maps/dir/Stalowa+Wola/Punkt+widokowy+nad+Wis%C5%82%C4%85+i+Sanem,+Radomy%C5%9Bl+nad+Sanem/@50.6530206,21.8489514,11.25z/data=!4m14!4m13!1m5!1m1!1s0x473d2c95ff42408b:0x25160a7e508dd65b!2m2!1d22.0535861!2d50.5826005!1m5!1m1!1s0x4722c9efafc93f71:0xc24fdca526f5af6c!2m2!1d21.8460473!2d50.7386693!3e1?authuser=0&entry=ttu&g_ep=EgoyMDI1MDYxMS4wIKXMDSoASAFQAw%3D%3D">Kliknij tutaj, aby zobaczyć trasę i przeglądnąć szczegóły</a>
+ </div>
+</body>
+<div class="video-wrapper">
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/EJIki3e5hl4" 
+frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+allowfullscreen></iframe>
+
+</div>
+
+<div class="container"> 
+<h3>Przebieg trasy:</h3>
+<ul>
+  <li>9:00 : wyjazd ze Stalowej Woli</li>
+  <li>9:50 : postój na zapiekanki przy budynku gminy (Radomyśl n/Sanem)</li>
+  <li>10:50: miejsce docelowe (obserwacje przyrodnicze)</li>
+  <li>13:30: powrót do Stalowej Woli</li>
+</ul>
+</div>
+
+</html>
